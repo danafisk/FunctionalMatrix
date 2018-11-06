@@ -84,7 +84,7 @@ void printMatrix(vector <vector <char> > matrix)
   {
     for (int col = 0; col < matrix[row].size(); col++)
     {
-      cout<<matrix[row][col]<<" |";
+      cout<<matrix[row][col]<<" ";
     }
     cout<<endl;
   }
