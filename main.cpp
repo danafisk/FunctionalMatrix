@@ -64,7 +64,7 @@ vector <vector <char> > initializeMatrix(int rows, int columns, char value)
       matrix[row].resize(columns);
       for (int col = 0; col <matrix[row].size(); col++)
       {
-        matrix[row][col]=0;
+        matrix[row][col]= value;
       }
     }
   }
